@@ -193,7 +193,8 @@ docker build \
   --build-arg NEXT_PUBLIC_SUPABASE_URL=your-supabase-url \
   --build-arg NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=your-publishable-key \
   -t everyday-pairs .
-
+```
+```
 docker run --env-file .env.local -p 3000:3000 everyday-pairs
 ```
 
@@ -204,7 +205,8 @@ docker build `
   --build-arg NEXT_PUBLIC_SUPABASE_URL=your-supabase-url `
   --build-arg NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=your-publishable-key `
   -t everyday-pairs .
-
+```
+```
 docker run --env-file .env.local -p 3000:3000 everyday-pairs
 ```
 
